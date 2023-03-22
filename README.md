@@ -16,5 +16,5 @@
       
 5. Open your browser to ```http://localhost:4000```
 
-Note: You will need to re-run bundle exec jekyll serve to see changes made in _config.yml.
+Note: You will need to re-run ```bundle exec jekyll serve``` to see changes made in ```_config.yml```.
     
