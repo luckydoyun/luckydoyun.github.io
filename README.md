@@ -11,4 +11,5 @@
 3. ```bundle install```
 4. bundle exec jekyll serve
   4-1. 에러 발생 시 :  ```GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.```
+       
        해결방법 : ```bundle add webrick``` 
