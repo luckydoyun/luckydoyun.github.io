@@ -15,4 +15,6 @@
        해결방법 : bundle add webrick
       
 5. Open your browser to ```http://localhost:4000```
+
+Note: You will need to re-run bundle exec jekyll serve to see changes made in _config.yml.
     
