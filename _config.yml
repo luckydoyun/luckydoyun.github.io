@@ -169,7 +169,7 @@ content:
       - layout: left
         title: 컴퓨터공학과
         caption: 2010.03 - 2017.08
-        sub_title: 충남대학교 컴퓨터공학과 입학과 졸업
+        sub_title: 충남대학교 컴퓨터공학과 졸업
         quote: >
           <mark>컴퓨터공학에 대한 전반적인 학사교육</mark>
         description: | # this will include new lines to allow paragraphs
@@ -185,7 +185,7 @@ content:
     content:
       - layout: top-middle
         quote: >
-          사용했던 기술
+          <mark>업무 또는 교육에서 사용했던 기술입니다.</makr>
       - layout: left
         title: BACK-END
         # sub_title: -
