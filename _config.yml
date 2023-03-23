@@ -166,6 +166,20 @@ content:
           - 인덱스, 실행 계획, RDBMS의 구조
           - SQL 튜닝 기본 교육
 
+      - layout: left
+        title: 컴퓨터공학과
+        caption: 2010.03 - 2017.08
+        sub_title: 충남대학교 컴퓨터공학과 입학과 졸업
+        quote: >
+          <mark>컴퓨터공학에 대한 전반적인 학사교육</mark>
+        description: | # this will include new lines to allow paragraphs
+          - 컴퓨터프로그래밍(C, Java)
+          - 알고리즘 & 자료구조
+          - 이산수학과 확률 및 통계
+          - 프로그래밍언어과 컴퓨터공학개론 및 소프트웨어공학
+          - 데이터베이스 및 데이터베이스 실습
+          - 컴퓨터구조와 데이터통신
+
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
     content:
