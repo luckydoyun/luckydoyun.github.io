@@ -49,7 +49,7 @@ instagram_username: ddoyun.j
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   공공기관 대형 SI/SM 프로젝트에서 다양한 업무를 경험한 4년차 풀스택 개발자입니다.<br>
-  SM프로젝트에서는 요구사항에 맞춰 UI제작(프론트)과 비지니스 로직 개발 및 모델링 설계(백엔드) 경험하였고
+  SM프로젝트에서는 요구사항에 맞춰 UI제작(프론트)과 비지니스 로직 개발 및 모델링 설계(백엔드) 경험하였고,<br>
   SI프로젝트에서는 개발서버 구축 및 빌드배포 환경을 구축하여 개발자들이 개발할 수 있는 환경을 만든 경험이 있습니다.<br>
 
   <br>다양한 직무로 나뉘어진 IT에서 <mark>의사소통</mark>과 <mark>공감능력</mark>은 무엇보다 중요하다고 생각합니다.
