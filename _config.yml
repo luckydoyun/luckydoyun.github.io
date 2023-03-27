@@ -71,7 +71,9 @@ content:
           국세청 금융투자소득세 전산시스템 개발
         description: | # this will include new lines to allow paragraphs
             - 금융투자소득세 전산시스템 SI 프로젝트 참여
-            - 개발서버 & 빌드/배포 환경 구축 1인 담당
+            - 혼자서 프로젝트 개발서버 구축 후 빌드&배포 자동화 스케줄 설정
+            - 2시간 주기로 개발서버 재기동 설정 및 서버 로그파일 관리를 하여 개발자들의 원활한 개발환경 구축
+            - 빌드배포의 오류를 최소화 하기 위해 프로젝트 개발자 대상으로 빌드배포 컨벤션에 관한 교육 진행
             - 개발서버 관리 및 프로젝트 개발 트러블슈팅 1인 담당
 
       - title: 아이티센
@@ -84,8 +86,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 차세대 국세행정시스템 SM 프로젝트 참여
             - 프로젝트 메타(표준단어, 표준용어, 표준도메인, DB모델링) 관리
+            - 개발팀의 신규 요구사항 및 개발 영향도를 분석하여 적합한 모델링 제시, 쿼리 성능 개선
             - DA#(모델링 툴)을 사용하기 위한 오라클DB 설치 및 테스트 가이드 제작
-            - 프로젝트 메타 품질 체크 업무를 자동화하여 업무 시간 <strong>66% 단축</strong>
+            - 프로젝트 메타 품질 체크 업무를 Shell Script로 자동화하여 업무 시간 <strong>66% 단축</strong>
       
       - title: 아이티센
         link: http://www.itcen.co.kr/
@@ -99,6 +102,7 @@ content:
             - MVC 패턴을 활용하여 시스템 유지보수 및 개발
             - 전자정부 프레임워크, Oracle, DB2 환경에서의 개발 경험
             - 365일 무중단 시스템에서 운영서버 전체 빌드/배포 및 백업 담당 경험
+            - 신규 팀원이 프로젝트 개발 문화에 적응하도록 온보딩 프로세스 가이드 문서 작성
 
 
   - title: Competency # Title for the section
