@@ -55,14 +55,27 @@ about_content: | # this will include new lines to allow paragraphs
   <br>다양한 직무로 나뉘어진 IT에서 <mark>의사소통</mark>과 <mark>공감능력</mark>은 무엇보다 중요하다고 생각합니다.<br>
   그래서 다른 직무의 구성원과 <mark>협업</mark>시 요구사항을 정확히 이해하고 전달하는 역량을 쌓아왔습니다.<br>
 
-  <br><mark>효율적으로 일하는 방법</mark>에 대해 생각하는 것을 좋아하며, 반복되는 작업을 자동화하여 업무 시간을 1시간에서 <strong>20분</strong>으로 줄였던 경험이 있습니다.
+  <br><mark>효율적으로 일하는 방법</mark>에 대해 생각하는 것을 좋아하며, 반복되는 작업을 자동화하여 업무 시간을 60분에서 <strong>20분</strong>으로 줄였던 경험이 있습니다.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 쌍용정보통신(주)
+        title: 퍼즐에이아이
+        link: https://puzzle-ai.io/
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: 2023.05 ~
+        quote: >
+          의료 AI 음성인식 서비스 고도화
+        description: | # this will include new lines to allow paragraphs
+            - 서비스 고도화를 위한 DB모델링 설계
+            - DB교체로 이한 데이터 이관(MySQL -> postgreSQL)
+            - Jupyter Notebook를 활용하여 비정형 데이터 가공 및 DB적재
+            - 여러 팀들의 의사소통을 위한 사내 데이터 사전 생성
+      
+      - title: 쌍용정보통신(주)
         link: https://www.sicc.co.kr/
         # link_text: boringcompany.com
         sub_title: Software Architect(AA)
@@ -71,10 +84,9 @@ content:
           국세청 금융투자소득세 전산시스템 개발
         description: | # this will include new lines to allow paragraphs
             - 금융투자소득세 전산시스템 SI 프로젝트 참여
-            - 혼자서 프로젝트 개발서버 구축 후 빌드&배포 자동화 스케줄 설정
-            - 2시간 주기로 개발서버 재기동 설정 및 서버 로그파일 관리를 하여 개발자들의 원활한 개발환경 구축
+            - 프로젝트 개발서버 빌드&배포 자동화를 위해 스케줄 설정(crontab)
             - 빌드배포의 오류를 최소화 하기 위해 프로젝트 개발자 대상으로 빌드배포 컨벤션에 관한 교육 진행
-            - 개발서버 관리 및 프로젝트 개발 트러블슈팅 1인 담당
+            - 개발자요청으로 POI라이브러리(엑셀) 커스텀마이징
 
       - title: 아이티센
         link: http://www.itcen.co.kr/
@@ -86,9 +98,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 차세대 국세행정시스템 SM 프로젝트 참여
             - 프로젝트 메타(표준단어, 표준용어, 표준도메인, DB모델링) 관리
-            - 개발팀의 신규 요구사항 및 개발 영향도를 분석하여 적합한 모델링 제시, 쿼리 성능 개선
+            - 개발팀의 신규 요구사항 및 개발 영향도를 분석하여 적합한 모델링 제시
             - DA#(모델링 툴)을 사용하기 위한 오라클DB 설치 및 테스트 가이드 제작
-            - 프로젝트 메타 품질 체크 업무를 Shell Script로 자동화하여 업무 시간 <strong>66% 단축</strong>
+            - 프로젝트 메타 품질 점검 업무를 Shell Script로 자동화하여 업무 시간 <strong>75%</strong> 단축
       
       - title: 아이티센
         link: http://www.itcen.co.kr/
@@ -101,7 +113,7 @@ content:
             - 차세대 국세행정시스템 SM 프로젝트 참여
             - MVC 패턴을 활용하여 시스템 유지보수 및 개발
             - 전자정부 프레임워크, Oracle, DB2 환경에서의 개발 경험
-            - 365일 무중단 시스템에서 운영서버 전체 빌드/배포 및 백업 담당 경험
+            - 365일 무중단 시스템에서 빌드&배포 및 테스트 경험
             - 신규 팀원이 프로젝트 개발 문화에 적응하도록 온보딩 프로세스 가이드 문서 작성
 
 
@@ -199,9 +211,8 @@ content:
         # caption: -
         description: | # this will include new lines to allow paragraphs
             - Java
-            - Spring MVC, Spring
-            - Maven
-            - Eclipse, Visual Studio Code
+            - Python
+            - Spring MVC
 
       - layout: left
         title: FRONT-END
@@ -209,7 +220,6 @@ content:
         # caption: -
         description: | # this will include new lines to allow paragraphs
             - ES6
-            - Npm, Vite
             - HTML5, CSS
             - React
 
@@ -219,18 +229,20 @@ content:
         # caption: -
         description: | # this will include new lines to allow paragraphs
             - Oracle, DB2
-            - DA#
-            - Jenkins
-            - Tomcat
+            - SQL
+            - Docker
             - Linux
+            - Github
+            - Slack
+            - Notion
   
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       취미 활동
-      - 건강 및 근력을 위한 헬스🏋🏻
+      - 건강 및 근력을 위한 헬스&라이딩🏋🏻
       - 좋은공기 마시러 등산🌄
-      - 게임🎮
+      - IT블로그 운영으로 지속적인 공부🧐
       - 빵🥐 먹으러 카페가기
 
 # Look at this cool image  
