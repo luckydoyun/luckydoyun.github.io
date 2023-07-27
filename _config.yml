@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 # twitter_username: facespics
-github_username:  luckydoyun
+github_username: luckydoyun
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -57,6 +57,8 @@ about_content: | # this will include new lines to allow paragraphs
 
   <br><mark>효율적으로 일하는 방법</mark>에 대해 생각하는 것을 좋아하며, 반복되는 작업을 자동화하여 업무 시간을 60분에서 <strong>20분</strong>으로 줄였던 경험이 있습니다.
 
+  현재는 스타트업에서 <strong>프로젝트 설계부터 개발<strong>까지 맡아서 하는 풀스택 포지션으로 일하고 있습니다.
+
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -70,11 +72,12 @@ content:
         quote: >
           의료 AI 음성인식 서비스 고도화
         description: | # this will include new lines to allow paragraphs
-            - 서비스 고도화를 위한 DB모델링 설계
-            - DB교체로 이한 데이터 이관(MySQL -> postgreSQL)
-            - Jupyter Notebook를 활용하여 비정형 데이터 가공 및 DB적재
-            - 여러 팀들의 의사소통을 위한 사내 데이터 사전 생성
-      
+          - Docker-compose 기반 프로젝트 설계 및 개발(1인)
+          - Web Audio API를 활용하여 음성인식에 필요한 음성데이터 가공
+          - Agora SDK 분석 및 서비스확장 기획
+          - 서비스 고도화를 위한 DB모델링 설계
+          - 여러 팀들의 의사소통을 위한 사내 데이터 사전 생성
+
       - title: 쌍용정보통신(주)
         link: https://www.sicc.co.kr/
         # link_text: boringcompany.com
@@ -83,10 +86,10 @@ content:
         quote: >
           국세청 금융투자소득세 전산시스템 개발
         description: | # this will include new lines to allow paragraphs
-            - 금융투자소득세 전산시스템 SI 프로젝트 참여
-            - 프로젝트 개발서버 빌드&배포 자동화를 위해 스케줄 설정(crontab)
-            - 빌드배포의 오류를 최소화 하기 위해 프로젝트 개발자 대상으로 빌드배포 컨벤션에 관한 교육 진행
-            - 개발자요청으로 POI라이브러리(엑셀) 커스텀마이징
+          - 금융투자소득세 전산시스템 SI 프로젝트 참여
+          - 프로젝트 개발서버 빌드&배포 자동화를 위해 스케줄 설정(crontab)
+          - 빌드배포의 오류를 최소화 하기 위해 프로젝트 개발자 대상으로 빌드배포 컨벤션에 관한 교육 진행
+          - 개발자요청으로 POI라이브러리(엑셀) 커스텀마이징
 
       - title: 아이티센
         link: http://www.itcen.co.kr/
@@ -96,12 +99,12 @@ content:
         quote: >
           차세대 국세행정시스템 운영 및 유지보수 사업
         description: | # this will include new lines to allow paragraphs
-            - 차세대 국세행정시스템 SM 프로젝트 참여
-            - 프로젝트 메타(표준단어, 표준용어, 표준도메인, DB모델링) 관리
-            - 개발팀의 신규 요구사항 및 개발 영향도를 분석하여 적합한 모델링 제시
-            - DA#(모델링 툴)을 사용하기 위한 오라클DB 설치 및 테스트 가이드 제작
-            - 프로젝트 메타 품질 점검 업무를 Shell Script로 자동화하여 업무 시간 <strong>75%</strong> 단축
-      
+          - 차세대 국세행정시스템 SM 프로젝트 참여
+          - 프로젝트 메타(표준단어, 표준용어, 표준도메인, DB모델링) 관리
+          - 개발팀의 신규 요구사항 및 개발 영향도를 분석하여 적합한 모델링 제시
+          - DA#(모델링 툴)을 사용하기 위한 오라클DB 설치 및 테스트 가이드 제작
+          - 프로젝트 메타 품질 점검 업무를 Shell Script로 자동화하여 업무 시간 <strong>75%</strong> 단축
+
       - title: 아이티센
         link: http://www.itcen.co.kr/
         # link_text: boringcompany.com
@@ -110,12 +113,11 @@ content:
         quote: >
           차세대 국세행정시스템 운영 및 유지보수 사업
         description: | # this will include new lines to allow paragraphs
-            - 차세대 국세행정시스템 SM 프로젝트 참여
-            - MVC 패턴을 활용하여 시스템 유지보수 및 개발
-            - 전자정부 프레임워크, Oracle, DB2 환경에서의 개발 경험
-            - 365일 무중단 시스템에서 빌드&배포 및 테스트 경험
-            - 신규 팀원이 프로젝트 개발 문화에 적응하도록 온보딩 프로세스 가이드 문서 작성
-
+          - 차세대 국세행정시스템 SM 프로젝트 참여
+          - MVC 패턴을 활용하여 시스템 유지보수 및 개발
+          - 전자정부 프레임워크, Oracle, DB2 환경에서의 개발 경험
+          - 365일 무중단 시스템에서 빌드&배포 및 테스트 경험
+          - 신규 팀원이 프로젝트 개발 문화에 적응하도록 온보딩 프로세스 가이드 문서 작성
 
   - title: Competency # Title for the section
     layout: list # Type of content section (list/text)
@@ -125,18 +127,18 @@ content:
         # link: github.com/sproogen
         # link_text: Project Website
         #additional_links:
-         # - title:  sproogen/modern-resume-theme
-         #   icon: fab fa-github
-         #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # - title:  sproogen/modern-resume-theme
+        #   icon: fab fa-github
+        #   url: github.com/sproogen/modern-resume-theme
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           <mark>대형 프로젝트 개발 경험 및 소수 팀 프로젝트 리드 경험</mark>
         description: | # this will include new lines to allow paragraphs
           - 멋쟁이사자 프론트엔트 스쿨4기 Final Project 리드 (2023.02 - 2023.03)
           - 차세대 국세행정 시스템 포털 개발 및 관리 (2019.01 - 2019.12)
-      
+
       - layout: top-middle
         title: 컴퓨터 소프트웨어 개발의 모든 계층 친숙
         quote: >
@@ -148,7 +150,7 @@ content:
           - Java, DB2를 활용하여 비즈니스 로직 구현 (2019.01 - 2019.12)
           - UI 프레임워크를 활용하여 UI 제작 (2019.01 - 2019.12)
           - 컴퓨터공학과 졸업 (2010.03 - 2017.08)
-      
+
       - layout: top-middle
         title: 폭 넓은 커뮤니케이션 능력
         quote: >
@@ -210,32 +212,35 @@ content:
         # sub_title: -
         # caption: -
         description: | # this will include new lines to allow paragraphs
-            - Java
-            - Python
-            - Spring MVC
+          - Java
+          - Python
+          - Django / Flask
+          - Spring MVC
 
       - layout: left
         title: FRONT-END
         # sub_title: -
         # caption: -
         description: | # this will include new lines to allow paragraphs
-            - ES6
-            - HTML5, CSS
-            - React
+          - ES6
+          - TypeScript
+          - HTML5, CSS
+          - React
 
       - layout: left
         title: DevOps
         # sub_title: -
         # caption: -
         description: | # this will include new lines to allow paragraphs
-            - Oracle, DB2
-            - SQL
-            - Docker
-            - Linux
-            - Github
-            - Slack
-            - Notion
-  
+          - Oracle, DB2
+          - SQL
+          - Nginx
+          - Docker
+          - Linux
+          - Github
+          - Slack
+          - Notion
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -245,7 +250,7 @@ content:
       - IT블로그 운영으로 지속적인 공부🧐
       - 빵🥐 먹으러 카페가기
 
-# Look at this cool image  
+# Look at this cool image
 # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
@@ -260,6 +265,6 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 github: [metadata]
