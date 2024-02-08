@@ -9,7 +9,7 @@ version: 2
 name: 장도윤
 title: Software Engineer
 email: doyun.jang.0128@gmail.com
-website: https://lucky-dev.tistory.com/
+# website: https://lucky-dev.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -17,32 +17,7 @@ darkmode: true
 # Social links
 # twitter_username: facespics
 github_username: luckydoyun
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
 instagram_username: ddoyun.j
-# linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -66,21 +41,36 @@ content:
       - layout: left
         title: 퍼즐에이아이
         link: https://puzzle-ai.io/
-        # link_text: boringcompany.com
-        sub_title: Software Engineer
-        caption: 2023.05 ~
+        sub_title: Full-Stack Developer
+        caption: 2023.12 ~
         quote: >
-          의료 AI 음성인식 서비스 고도화
+          의료 AI 음성인식 서비스 SDK
         description: | # this will include new lines to allow paragraphs
-          - Docker-compose 기반 프로젝트 설계 및 개발(1인)
-          - Web Audio API를 활용하여 음성인식에 필요한 음성데이터 가공
-          - Agora SDK 분석 및 서비스확장 기획
+          - 각 의료시스템 및 각 의료IT기업에서 자체적으로 서비스를 구축할 수 있도록 의료AI 음성인식 SDK 개발
+          - C# SDK 개발 PL
+          - Singleton Pattern 적용 및 내부 로직 priavte 처리
           - 서비스 고도화를 위한 DB모델링 설계
           - 여러 팀들의 의사소통을 위한 사내 데이터 사전 생성
 
+      - title: 퍼즐에이아이
+        link: https://puzzle-ai.io/
+        sub_title: Full-Stack Developer
+        caption: 2023.05 - 2023.11
+        quote: >
+          서울아산병원 법무팀 보이스마크 시스템 개발(1인 개발)
+        description: | # this will include new lines to allow paragraphs
+          - 고객의 요구사항에 맞춰 시스템 아키텍처 설계
+          - 병원시스템과 연동을 위해 C# DLL 개발
+          - Python Django를 이용하여 백엔드 구축 및 비즈니스 로직 개발
+          - React를 이용하여 프론트 구축 및 비즈니스 로직 개발
+          - PostgreSQL를 이용하여 DB 구축 및 Django ORM 사용
+          - docker-compose를 사용하여 백엔드서버, 프론트서버, DB서버 통합 구축 및 관리
+          - 특정 시간대에 발생하는 460건의 병목현상을 해결하기 위해 멀티스레드 설계 및 개발
+          - 용이한 유지보수를 위해 Github 관리
+          - 기능 정의서, DB다이어그램, DLL인터페이스 정의서 등 프로젝트 문서 작성
+
       - title: 쌍용정보통신(주)
         link: https://www.sicc.co.kr/
-        # link_text: boringcompany.com
         sub_title: Software Architect(AA)
         caption: 2022.01 - 2022.08
         quote: >
@@ -93,7 +83,6 @@ content:
 
       - title: 아이티센
         link: http://www.itcen.co.kr/
-        # link_text: boringcompany.com
         sub_title: Software Architect(DA)
         caption: 2020.01 - 2021.12
         quote: >
@@ -107,7 +96,6 @@ content:
 
       - title: 아이티센
         link: http://www.itcen.co.kr/
-        # link_text: boringcompany.com
         sub_title: Full-Stack Developer
         caption: 2019.01 - 2019.12
         quote: >
@@ -124,18 +112,10 @@ content:
     content:
       - layout: top-middle
         title: 개발 파트
-        # link: github.com/sproogen
-        # link_text: Project Website
-        #additional_links:
-        # - title:  sproogen/modern-resume-theme
-        #   icon: fab fa-github
-        #   url: github.com/sproogen/modern-resume-theme
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           <mark>대형 프로젝트 개발 경험 및 소수 팀 프로젝트 리드 경험</mark>
         description: | # this will include new lines to allow paragraphs
+          - 퍼즐AI 개발팀 PL (2023.05 - 현재)
           - 멋쟁이사자 프론트엔트 스쿨4기 Final Project 리드 (2023.02 - 2023.03)
           - 차세대 국세행정 시스템 포털 개발 및 관리 (2019.01 - 2019.12)
 
@@ -216,6 +196,7 @@ content:
           - Python
           - Django / Flask
           - Spring MVC
+          - C#
 
       - layout: left
         title: FRONT-END
