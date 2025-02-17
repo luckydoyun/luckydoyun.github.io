@@ -21,11 +21,13 @@ instagram_username: ddoyun.j
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  공공기관 대형 SI/SM 프로젝트에서 <mark>다양한 업무</mark>를 경험한 4년차 소프트웨어 엔지니어입니다.<br>
-  SM프로젝트에서 요구사항에 맞춰 UI제작(프론트)과 비지니스 로직 개발 및 모델링 설계(백엔드)를 경험하였고,<br>
-  SI프로젝트에서는 개발서버 및 빌드배포 환경을 구축하여 개발자들이 개발할 수 있는 환경을 만든 경험을 했습니다.<br>
+  안녕하세요, 공공기관 SI프로젝트와 스타트업 서비스 프로젝트 등 <mark>다양한 경험</mark>을 쌓고있는 소프트웨어 엔지니어입니다.<br>
+  SM프로젝트에서 요구사항에 맞춰 UI제작(프론트)과 비지니스 로직 개발 및 모델링 설계(백엔드)를 경험했습니다.<br>
+  SI프로젝트에서는 개발서버 및 빌드배포 환경을 구축하여 프로젝트 초기 개발 환경을 만든 경험을 했습니다.<br>
+
+  그리고 스타트업에서 자사 서비스를 1인 개발을 하여 실사용자에게 배포한 경험이 있습니다.<br>
 
   <br>다양한 직무로 나뉘어진 IT에서 <mark>의사소통</mark>과 <mark>공감능력</mark>은 무엇보다 중요하다고 생각합니다.<br>
   그래서 다른 직무의 구성원과 <mark>협업</mark>시 요구사항을 정확히 이해하고 전달하는 역량을 쌓아왔습니다.<br>
